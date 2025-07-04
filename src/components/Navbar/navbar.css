@@ -1,0 +1,21 @@
+#navbarNav{
+    font-size: medium !important;
+    font-family: poppins !important;
+}
+.navbar{
+    background-color: #ffffff !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1000 !important;
+}
+
+.navbar-logo {
+  width: 5%;
+  height: 40%;
+  
+}
+.nav-link{
+    color: #002060 !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+}

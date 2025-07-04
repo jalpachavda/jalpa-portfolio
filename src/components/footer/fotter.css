@@ -1,0 +1,17 @@
+.footer{
+ background-image: linear-gradient(to bottom, #148878,#11203C);
+}
+
+
+.footer-text{
+      font-size: 15px;
+}
+
+.footer {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-size: 4px;
+  padding: 18px 0;
+ 
+}
+
