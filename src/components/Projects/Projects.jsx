@@ -44,7 +44,12 @@ export default function Projects() {
 
   return (
     <div style={{ backgroundColor: "#f5f5f5", padding: "40px 0" }}>
-      <Container>
+     <Container>
+     <div className="sec-title">
+        <div className="title">Projects</div>
+      </div>
+    <div >
+     
         <Grid container spacing={4} justifyContent="center">
           {projects.map((project, index) => (
             <Grid
@@ -83,6 +88,7 @@ export default function Projects() {
                 </CardContent>
                 <CardActions>
                   <Button
+                  sx={{backgroundColor: "#002060", color: "#fff"}}
                     component="a"
                     href={project.link}
                     target="_blank"
@@ -98,6 +104,7 @@ export default function Projects() {
             </Grid>
           ))}
         </Grid>
+    </div>
       </Container>
     </div>
   );

@@ -10,30 +10,51 @@ const AboutSection = () => {
           <div className="content-column col-md-6 col-sm-12 col-xs-12">
             <div className="inner-column">
               <div className="sec-title">
-                <div className="title">About Us</div>
+                <div className="title">About Me</div>
                 <h2>
-                  We Are The Leader In <br /> The Interiores
+                  React.js Developer, <br /> Building Modern Web Applications
                 </h2>
               </div>
               <div className="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries
+                <p>
+                  {" "}
+                  Hi, I'm Jalpa Chavda, a passionate React.js Developer with
+                  hands-on experience building dynamic, responsive, and
+                  user-friendly web applications.
+                </p>
+
+                <p>
+                  I began my professional journey with a 6-month internship at
+                  Cherrypik Software, where I gained valuable industry exposure
+                  and practical development skills.
+                </p>
+                <p>
+                  Currently, I am working with Hackbarry Softech Pvt. Ltd. as a
+                  React.js Developer. where I contributed to real-world projects
+                  and further honed my frontend expertise.
+                </p>
+                <p>
+                  Alongside frontend development, I also have a basic
+                  understanding of backend technologies in the MERN stack
+                  (MongoDB, Express.js, React.js, Node.js), which allows me to
+                  collaborate effectively on full-stack applications. 
+                </p>
               </div>
-              <div className="email">
+              {/* <div className="email">
                 Email:{" "}
-                <a 
+                <a
                   href="mailto:jalpachavda1211@gmail.com"
                   className="theme_color"
                 >
                   jalpachavda1211@gmail.com
                 </a>
-              </div>
-              <a href="about.html" className="theme-btn btn-style-three theme_color">
+              </div> */}
+              {/* <a
+                href="about.html"
+                className="theme-btn btn-style-three theme_color"
+              >
                 Read More
-              </a>
+              </a> */}
             </div>
           </div>
 

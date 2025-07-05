@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./skill.css";
 const SkillCircle = () => {
-  const [counter, setCounter] = useState(0);
+  const [, setCounter] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -19,13 +19,15 @@ const SkillCircle = () => {
 
   return (
     <div className="container">
-        <div className="title">Skills</div>
+      <div className="sec-title">
+        <div className="title">Skill</div>
+      </div>
       <div className="row  align-items-center justify-content-center ">
         <div className=" allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`HTML ${95}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -33,14 +35,14 @@ const SkillCircle = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
                 width="160px"
-                height="160px"  
+                height="160px"
               >
                 <defs>
-                 <linearGradient id="GradientColor" >
-  <stop offset="0%" stop-color="#16377a" />
-  <stop offset="50%" stop-color="#003080" />
-  <stop offset="100%" stop-color="#0040A0" />
-</linearGradient>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#16377a" />
+                    <stop offset="50%" stop-color="#003080" />
+                    <stop offset="100%" stop-color="#0040A0" />
+                  </linearGradient>
                 </defs>
                 <circle
                   id="html-circle"
@@ -54,11 +56,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className=" allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className=" allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`Css ${95}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -86,11 +88,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`Bootstrap ${93}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -118,11 +120,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`React ${95}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -150,11 +152,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className=" allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className=" allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`MUI ${95}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -182,11 +184,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`Node.js ${50}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -214,11 +216,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`Express.js ${50}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -245,11 +247,11 @@ const SkillCircle = () => {
             </span>
           </div>
         </div>
-         <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
+        <div className="allcard col-lg-3 col-md-4 col-sm-12 mb-4 mt-4">
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`HTML ${counter}%`}</div>
+                <div id="number">{`MongoDB ${50}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">
@@ -271,13 +273,11 @@ const SkillCircle = () => {
                   cy="80"
                   r="70"
                   strokeLinecap="round"
-                  
                 />
               </svg>
             </span>
           </div>
         </div>
-        
       </div>
     </div>
   );

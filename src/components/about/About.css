@@ -3,7 +3,7 @@
 }
 .about-section{
 	position:relative;
-	padding:120px 0px;
+	/* padding:120px 0px; */
 }
 
 .about-section .content-column{
@@ -40,7 +40,7 @@
 .about-section .image-column .inner-column{
 	position:relative;
 	padding:40px 40px 0px 0px;
-	margin-left:50px;
+	
 }
 
 .about-section .image-column .inner-column:after{
@@ -150,15 +150,8 @@
     display: inline-block;
     text-transform: capitalize;
 }
-.sec-title .title:before {
-    position: absolute;
-    content: '';
-    right: 0px;
-    bottom: 7px;
-    width: 40px;
-    height: 1px;
-    background-color:#002060;
-}
+
+
 .theme_color{
 	color: #002060 !important;
 }

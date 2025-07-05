@@ -14,10 +14,9 @@ const ResumePage = () => {
               consectetur velit
             </p>
           </div> */}
-            <div className="sec-title">
-                <div className="title">Resume</div>
-                
-              </div>
+          <div className="sec-title">
+            <div className="title">Resume</div>
+          </div>
 
           <div className="container">
             <div className="row">
@@ -25,26 +24,25 @@ const ResumePage = () => {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 className="resume-title">Summary</h3>
                 <div className="resume-item pb-0">
-                  <h4>Brandon Johnson</h4>
+                  <h4>Jalpa Chavda</h4>
                   <p>
-                    <em>
-                      Innovative and deadline-driven Graphic Designer with 3+
-                      years of experience designing and developing user-centered
-                      digital/print marketing material from initial concept to
-                      final, polished deliverable.
-                    </em>
+                    Self-motivated and detail-oriented React.js Developer with
+                    hands-on experience in designing and building responsive web
+                    applications using modern JavaScript frameworks. Completed 
+                    real-world React projects.
+                  
                   </p>
                   <ul>
-                    <li>Portland par 127, Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                   
+                    <li>Contact: 9313061960</li>
+                    <li>Mail: jalpachavda1211@gmail.com</li>
                   </ul>
                 </div>
 
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
-                  <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2015 - 2016</h5>
+                  <h4>Bachelor of Computer Application</h4>
+                  <h5>2020 - 2023</h5>
                   <p>
                     <em>Rochester Institute of Technology, Rochester, NY</em>
                   </p>
@@ -55,14 +53,13 @@ const ResumePage = () => {
                 </div>
 
                 <div className="resume-item">
-                  <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2010 - 2014</h5>
+                  <h4>HSC(Higher Secondary Certificate)</h4>
+                  <h5>2018 - 2020</h5>
                   <p>
-                    <em>Rochester Institute of Technology, Rochester, NY</em>
+                    <em>Gujarat Secondary and Higher Secondary Education Board (GSEB) </em>
                   </p>
                   <p>
-                    Quia nobis sequi est occaecati aut. Repudiandae et iusto
-                    quae reiciendis et quis.
+                   Successfully completed 12th grade from the Gujarat Secondary and Higher Secondary Education Board (GSEB) with commendable academic performance.
                   </p>
                 </div>
               </div>
@@ -72,45 +69,40 @@ const ResumePage = () => {
                 <h3 className="resume-title">Professional Experience</h3>
 
                 <div className="resume-item">
-                  <h4>Senior Graphic Design Specialist</h4>
-                  <h5>2019 - Present</h5>
+                  <h4>React js Devloper</h4>
+                  <h5>March 2025 - present</h5>
                   <p>
-                    <em>Experion, New York, NY</em>
+                    <em>Hackberry Softech Private Limited</em>
                   </p>
                   <ul>
                     <li>
-                      Lead in the design and implementation of graphic
-                      communication materials
+                     Building and maintaining modern web applications using React.js, focusing on clean, scalable, and reusable code.
                     </li>
                     <li>
-                      Delegate tasks to the team and provide counsel on design
-                      strategy
+                    Developed multiple components with responsive design, dynamic routing, and API integration.
                     </li>
                     <li>
-                      Supervise the assessment of all graphic materials for
-                      accuracy
+                     Worked in a fast-paced environment using Git, Axios, React Router, and Bootstrap to create production-ready interfaces.
                     </li>
                     <li>
-                      Oversee production project budgets ranging from $2,000 -
-                      $25,000
+                     Actively learning backend development using the MERN stack (MongoDB, Express.js, Node.js) to strengthen full-stack capabilities.
                     </li>
                   </ul>
                 </div>
 
                 <div className="resume-item">
-                  <h4>Graphic Design Specialist</h4>
-                  <h5>2017 - 2018</h5>
+                  <h4>React js Devloper(Intern)</h4>
+                  <h5>March 2025 - present</h5>
                   <p>
-                    <em>Stepping Stone Advertising, New York, NY</em>
+                    <em>Cherrypik Software, Inc.</em>
                   </p>
                   <ul>
                     <li>
-                      Developed numerous marketing materials: logos, brochures,
-                      presentations, etc.
+                     Developed and maintained responsive user interfaces using React.js and JavaScript.
                     </li>
-                    <li>Managed up to 5 projects simultaneously</li>
-                    <li>Consulted with clients on design strategies</li>
-                    <li>Created design proposals and presentations monthly</li>
+                    <li>Collaborated with senior developers to understand agile workflows and best coding practices.</li>
+                    <li>Worked on real-time projects, contributing to UI enhancements, bug fixes, and feature implementations</li>
+                    <li>Strengthened problem-solving skills and improved code readability through peer reviews and mentorship.</li>
                   </ul>
                 </div>
               </div>
