@@ -243,3 +243,12 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(40, 153, 125, 1
   font-weight: bold;
   color: var(--beige-sand-light);
 }
+.MuiCard-root {
+ transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  will-change: transform, box-shadow;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.30);
+}
