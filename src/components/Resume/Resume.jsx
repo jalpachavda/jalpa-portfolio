@@ -41,14 +41,15 @@ const ResumePage = () => {
 
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
-                  <h4>Bachelor of Computer Application</h4>
+                  <h4> Bachelor of Computer Application (BCA)</h4>
                   <h5>2020 - 2023</h5>
+                  <h5>Smt. R O Patel Women's MCA College, Morbi, Gujrat</h5>
+                  <h5>saurashtra university</h5>
                   <p>
-                    <em>Rochester Institute of Technology, Rochester, NY</em>
+                    <em>ocused on software development, web technologies, and programming fundamentals.</em>
                   </p>
                   <p>
-                    Qui deserunt veniam. Et sed aliquam labore tempore sed
-                    quisquam iusto autem sit.
+                   Gained knowledge in data structures, database management, and application development using modern technologies.
                   </p>
                 </div>
 

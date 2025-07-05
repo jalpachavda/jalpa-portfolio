@@ -82,7 +82,7 @@ function Navbar() {
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
-                About Us
+                About Me
               </span>
             </li>
             <li className="nav-item">
