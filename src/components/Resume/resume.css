@@ -583,3 +583,18 @@ h6 {
     height: 1px;
     /* background-color:#002060 !important; */
 }
+
+.see-resume-btn {
+  padding: 12px 24px;
+  background-color: #002060;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.see-resume-btn:hover {
+  background-color: #002060;
+}

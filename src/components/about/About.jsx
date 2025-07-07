@@ -3,7 +3,7 @@ import "./About.css";
 import aboutusimg from "../../assets/aboutusimg.jpg";
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" >
       <div className="container">
         <div className="row clearfix">
           {/* Content Column */}

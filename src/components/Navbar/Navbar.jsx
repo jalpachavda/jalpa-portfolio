@@ -37,11 +37,30 @@ function Navbar() {
     }
   };
 
-  const handleNavigateScroll = (path) => {
-    navigate(path);
-    handleLinkClick();
-  };
+  // const handleNavigateScroll = (path) => {
+  //   navigate(path);
+  //   handleLinkClick();
+  // };
 
+
+  const handleNavigateScroll = (sectionId) => {
+  if (location.pathname !== "/") {
+    navigate("/", { replace: true }); // Go to home first
+    setTimeout(() => {
+      scrollToSection(sectionId);
+    }, 100); // Wait for render
+  } else {
+    scrollToSection(sectionId);
+  }
+  handleLinkClick();
+};
+
+const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
+};
   const navbarClasses = [
     "navbar",
     "navbar-expand-lg",
@@ -50,6 +69,8 @@ function Navbar() {
     scrolled ? "scrolled" : "",
     isHomePage ? "home-page" : "other-page",
   ].join(" ");
+
+
 
   return (
     <nav className={navbarClasses}>
@@ -78,16 +99,16 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("/about")}
+                onClick={() => handleNavigateScroll("about")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
-                About Me
+                About Us
               </span>
             </li>
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("/skills")}
+                onClick={() => handleNavigateScroll("skills")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
@@ -96,7 +117,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("/resume")}
+                onClick={() => handleNavigateScroll("resume")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
@@ -105,7 +126,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("/portfolio")}
+                onClick={() => handleNavigateScroll("portfolio")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
@@ -114,7 +135,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("/contact")}
+                onClick={() => handleNavigateScroll("contact")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >
