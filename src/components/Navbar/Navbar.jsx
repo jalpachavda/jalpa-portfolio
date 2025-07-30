@@ -135,7 +135,7 @@ const scrollToSection = (id) => {
             </li>
             <li className="nav-item">
               <span
-                onClick={() => handleNavigateScroll("contact")}
+                onClick={() => handleNavigateScroll("ycontact")}
                 className="nav-link text-nowrap"
                 style={{ cursor: "pointer" }}
               >

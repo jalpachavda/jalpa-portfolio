@@ -12,7 +12,34 @@
 .navbar-logo {
   width: 5%;
   height: 40%;
-  
+}
+
+/* 1034px to 992px */
+@media (max-width: 1034px) and (min-width: 993px) {
+  .navbar-logo {
+    width: 6%;
+  }
+}
+
+/* 991px to 768px */
+@media (max-width: 991px) and (min-width: 769px) {
+  .navbar-logo {
+    width: 8%;
+  }
+}
+
+/* 767px to 568px */
+@media (max-width: 767px) and (min-width: 569px) {
+  .navbar-logo {
+    width: 10%;
+  }
+}
+
+/* 548px to 357px */
+@media (max-width: 548px) and (min-width: 358px) {
+  .navbar-logo {
+    width: 12%;
+  }
 }
 .nav-link{
     color: #00244c !important;
