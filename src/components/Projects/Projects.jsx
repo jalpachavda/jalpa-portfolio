@@ -43,7 +43,7 @@ export default function Projects() {
     },
       {
       image: Sarjanhomes,
-      title: "Dimpal Nails",
+      title: "Sarjan HOMES",
       description: "Sarjan HOMES real estate website",
       link: "https://dev.sarjanhomes.in",
     },
