@@ -4,6 +4,7 @@ import "./profresume.css";
 import { FaLocationArrow, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+// import { Page, Text, View, Document, StyleSheet } from "@react-pdf/renderer";
 const Profresume = () => {
   const componentRef = useRef();
 
@@ -103,7 +104,9 @@ const Profresume = () => {
 
           <div className="job">
             <h3>React.js Developer - Hackberry Softech Private Limited</h3>
-            <p className="location">Ahmedabad |<strong> March 2025 – Present</strong></p>
+            <p className="location">
+              Ahmedabad |<strong> March 2025 – Present</strong>
+            </p>
             <ul>
               <li>
                 Developed and maintained responsive user interfaces using
@@ -126,7 +129,9 @@ const Profresume = () => {
 
           <div className="job">
             <h3>React.js Developer (Intern) - Cherrypik Software, Inc.</h3>
-            <p className="location">Ahmedabad |<strong> September 2024 – March 2025 </strong></p>
+            <p className="location">
+              Ahmedabad |<strong> September 2024 – March 2025 </strong>
+            </p>
             <ul>
               <li>
                 Built and maintained web applications using PHP, Python, and
@@ -144,13 +149,16 @@ const Profresume = () => {
             </ul>
           </div>
         </div>
-         <div className="resume__section">
+        <div className="resume__section">
           <h2 className="border-bottom">Skills</h2>
           <ul className="skills">
             <li>HTML5, CSS3, Bootstrap5, JavaScript</li>
+            <li>tailwind CSS</li>
             <li>React.js, JSX, React Router</li>
+            <li>Integrate REST APIs, state management </li>
+            <li>Redux Toolkit , Context API</li>
             <li>Express.js, Node.js</li>
-            <li>MongoDB</li>
+            <li>SQL</li>
           </ul>
         </div>
 
@@ -158,19 +166,19 @@ const Profresume = () => {
           <h2 className="border-bottom">Projects</h2>
 
           <div className="project">
-            <h6>Wa-Frontend</h6>
-            <p className="location">Role: React.js Developer</p>
+            <h5>Wa-Frontend</h5>
+            {/* <p className="location">Role: React.js Developer</p> */}
             <p>
               <strong>Technologies:</strong> React JS, Laravel (APIs)
             </p>
             <p>
-              <strong>Project:</strong>{" "}
+              <strong>Project URL:</strong>{" "}
               <a
                 href="https://laravel.wasteaccountant.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://laravel.wasteaccountant.com/
+                Wa-Frontend
               </a>
             </p>
             <ul>
@@ -190,19 +198,19 @@ const Profresume = () => {
           </div>
 
           <div className="project">
-            <h6>Smart Box File</h6>
-            <p className="location">Role: React.js Developer</p>
+            <h5 className="">Smart Box File</h5>
+            {/* <p className="location">Role: React.js Developer</p> */}
             <p>
               <strong>Technologies:</strong> React JS, Laravel (APIs)
             </p>
             <p>
-              <strong>Project:</strong>{" "}
+              <strong>Project URL:</strong>{" "}
               <a
                 href="https://smartboxfile.fairytalesoftware.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://smartboxfile.fairytalesoftware.com/
+                SmartBoxFile
               </a>
             </p>
             <ul>
@@ -219,6 +227,84 @@ const Profresume = () => {
               </li>
             </ul>
           </div>
+
+          <div className="project">
+            <h5>Sarjan Homes</h5>
+            {/* <p className="location">Role: React.js Developer</p> */}
+            <p>
+              <strong>Technologies:</strong> React JS, Laravel (APIs)
+            </p>
+            <p>
+              <strong>Project URL:</strong>{" "}
+              <a
+                href="https://dev.sarjanhomes.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                SarjanHomes
+              </a>
+            </p>
+            <ul>
+              <li>
+                Developed a fully dynamic real estate website “Sarjan Homes”
+                with backend API integration to manage property listings,
+                company information, and media content through an admin panel.
+              </li>
+              <li>
+                Integrated Laravel-based APIs to implement dynamic
+                functionality.
+              </li>
+            </ul>
+          </div>
+          <h5 className="">Sarjan Homes Admin Panel</h5>
+          <ul>
+            <li>
+              The Sarjan Homes Admin Panel is a fully responsive and
+              feature-rich web application designed to efficiently manage real
+              estate operations — including property listings, client
+              management, and payment tracking — all within a single intuitive
+              dashboard.
+            </li>
+
+            <h6 className="features-title mt-3">Key Features</h6>
+            <ul>
+              <li className="ml-3">Property Management</li>
+              <li className="ml-3">Client Management</li>
+              <li className="ml-3">Payment Tracking</li>
+              <li className="ml-3">Dashboard Insights</li>
+              <li className="ml-3">Role Based Access</li>
+            </ul>
+          </ul>
+          {/* <div className="project">
+            <h5 className="">Book Sure Global</h5>
+           
+            <p>
+              <strong>Technologies:</strong>React JS, NodeJs,MySQL(APIs)
+            </p>
+            <p>
+              <strong>Project URL:</strong>{" "}
+              <a
+                href="https://book-sure-global.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BookSureGlobal
+              </a>
+            </p>
+            <ul>
+              <li>
+                Book Sure Global Website – Designed and developed a responsive
+                corporate website for Book Sure Global, showcasing global
+                services, pricing plans, and customer engagement features. The
+                website includes a modern UI, dynamic content sections, service
+                listings, contact forms, and optimized navigation to enhance
+                user experience. Built with a focus on performance, scalability,
+                and mobile responsiveness, ensuring seamless interaction across
+                all devices.
+              </li>
+             
+            </ul>
+          </div> */}
         </div>
 
         <div className="resume__section">

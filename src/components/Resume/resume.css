@@ -598,3 +598,96 @@ h6 {
 .see-resume-btn:hover {
   background-color: #002060;
 }
+
+
+
+/* certification */
+
+.cert-section {
+  background: #f7f8fc;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+}
+
+.cert-row {
+  padding: 20px 0;
+}
+
+.cert-img-large {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.cert-img-large:hover {
+  transform: scale(1.03);
+}
+
+.cert-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.cert-desc {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.cert-issued,
+.cert-year {
+  color: #666;
+  font-size: 15px;
+}
+
+
+/* ===========================
+   FULL SCREEN IMAGE MODAL
+   =========================== */
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  cursor: zoom-out;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.modal-img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  cursor: default;
+}
+
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.close-btn:hover {
+  color: #ccc;
+}
+
+/* Fade effect */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

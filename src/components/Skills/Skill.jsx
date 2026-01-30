@@ -251,7 +251,7 @@ const SkillCircle = () => {
           <div className="skill">
             <div className="outer">
               <div className="inner">
-                <div id="number">{`MongoDB ${50}%`}</div>
+                <div id="number">{`SQL ${50}%`}</div>
               </div>
             </div>
             <span className="html-circle-skill">

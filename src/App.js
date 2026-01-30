@@ -39,8 +39,6 @@
 
 // export default App;
 
-
-
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -54,7 +52,7 @@ import Skill from "./components/Skills/Skill";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/footer/Fotter";
 import Profresume from "./components/Prof-resume/Prof-resume";
-
+import Certification from "./components/Resume/Certification";
 function MainLayout() {
   return (
     <>
@@ -68,9 +66,11 @@ function MainLayout() {
       <div id="skills">
         <Skill />
       </div>
+
       <div id="resume">
         <ResumePage />
       </div>
+      <Certification />
       <div id="portfolio">
         <Projects />
       </div>
